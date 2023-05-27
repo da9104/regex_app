@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* @font-face {
+  font-family: Nunito;
+  src: url(/fonts/nunitosands-regular-webfont.eot);
+  } */
+  
+  body {
+    text-align: center;
+    background-color:white;
+    font-family: Nunito, Helvetica;
+    background-color:#a7bbc6;
+    height:100%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .App {
+    width:100%;
+    height:100%;
+    /*margin:30px auto 30px;*/
+    padding:40px 10px;
+    color:#444;
+    font-family: Helvetica;
+    background-color:#a7bbc6;
   }
-  to {
-    transform: rotate(360deg);
+  
+  /*
+    // Navy
+    background-color:#141c3a;
+    // Yellow
+    background-color:#ffc740;
+    // Purple
+    background-color:#6400e4;
+  */
+  
+  ul {
+    list-style:none;
+    margin:10px 0;
+    width:35%;
   }
-}
+  
+  input {
+    clear:both;
+  }
+  
+  #goodCases {
+    float:left;
+  }
+  
+  #onlyGoodCases {
+    float:center;
+  }
+  
+  #badCases {
+    float:right;
+  }
+  
+  #goodCasesItems {
+    float:center;
+  }
+  
+  li {
+    text-align:left;
+    width:140px;
+    font-family: Helvetica;
+  }
+  
+  .icon {
+    display:inline;
+  
+  }
+  
+  #buttons {
+    clear:both;
+  }
+  
+  #buttons button {
+    padding:10px;
+    margin:20px;
+  }
+  
+  #cases {
+    width:60%;
+    margin:10px auto;
+    /*display: inline-block;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .main-container {
+    float: left;
+    position: relative;
+    left: 50%;
+  }
+  .fixer-container {
+    float: left;
+    position: relative;
+    left: -50%;
+  }
+  
+  #explanation {
+    margin:10px 50px;
+    text-align:justify;
+    font-family: Helvetica;
+  }
+  
+  input {
+    width:200px;
+    height:40px;
+  }
+  
+  .matched {
+    color: #228B22
+  }
+  
+  .notMatched {
+    color: #444;
+  }
+  
+  .hiddenKey{
+    color: #c83647;
+  }
+  
