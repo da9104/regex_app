@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/regex_app/static/css/main.d26fa200.css",
+    "main.js": "/regex_app/static/js/main.227186c8.js",
+    "static/js/787.28cb0dcd.chunk.js": "/regex_app/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/regex_app/index.html",
+    "main.d26fa200.css.map": "/regex_app/static/css/main.d26fa200.css.map",
+    "main.227186c8.js.map": "/regex_app/static/js/main.227186c8.js.map",
+    "787.28cb0dcd.chunk.js.map": "/regex_app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d26fa200.css",
+    "static/js/main.227186c8.js"
+  ]
+}
